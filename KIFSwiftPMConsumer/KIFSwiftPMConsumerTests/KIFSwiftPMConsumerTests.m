@@ -9,7 +9,7 @@
 #import <XCTest/XCTest.h>
 
 
-@interface KIFSwiftPMConsumerTests : XCTestCase
+@interface KIFSwiftPMConsumerTests : KIFTestCase
 
 @end
 
