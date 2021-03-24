@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "Classes/KIFTestActor.h"
+#import "KIFTestActor.h"
 
 @interface XCTestCase (KIFAdditions) <KIFTestActorDelegate>
 
