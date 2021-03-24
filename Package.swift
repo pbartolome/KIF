@@ -18,7 +18,7 @@ let package = Package(
         .target(
             name: "KIF",
             dependencies: [],
-            publicHeadersPath: "./",
+            publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("ApplePrivateAPIs/"),
                 .headerSearchPath("Additions/"),
@@ -26,7 +26,7 @@ let package = Package(
                 .headerSearchPath("Visualizer/"),
                 .headerSearchPath("IdentifierTests/"),
             ],
-            linkerSettings: [ .linkedFramework("IOKit")]
+            linkerSettings: [.linkedFramework("IOKit")]
         ),
         .testTarget(
             name: "KIFTests",
